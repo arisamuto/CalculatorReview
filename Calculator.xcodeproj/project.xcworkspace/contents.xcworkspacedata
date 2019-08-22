@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:snoopy_sukashi.jpg">
+      location = "group:/Users/arisamuto/Desktop/&#x6b66;&#x85e4;&#x6709;&#x54b2;&#xff3f;&#x3042;&#x308a;&#x3061;&#x3083;&#x3093;/CalculatorReview/Calculator/haikei3.jpg">
    </FileRef>
    <FileRef
-      location = "self:Calculator.xcodeproj">
+      location = "group:/Users/arisamuto/Desktop/&#x6b66;&#x85e4;&#x6709;&#x54b2;&#xff3f;&#x3042;&#x308a;&#x3061;&#x3083;&#x3093;/CalculatorReview/Calculator/haikei2.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

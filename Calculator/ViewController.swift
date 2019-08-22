@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var ope: Int = 0
     
     @IBOutlet var label: UILabel!
+    @IBOutlet var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,11 +34,13 @@ class ViewController: UIViewController {
     
     @IBAction func select3 () {
         number1 = number1*10 + 3
+        
         label.text = String(number1)
     }
     
     @IBAction func select4 () {
         number1 = number1*10 + 4
+        
         label.text = String(number1)
     }
     
@@ -98,6 +101,7 @@ class ViewController: UIViewController {
         number2 = 0
         number3 = 0
         label.text = String(number1)
+         self.imageView.image = UIImage(named: "haikei3")
     }
     @IBAction func equal () {
         if ope == 1 {
@@ -109,8 +113,10 @@ class ViewController: UIViewController {
         } else if ope == 4 {
             number3 = number2 / number1
         }
-    label.text = String(number3)
-}
+        label.text = String(number3)
+        if number3 >= 10 {
+            self.imageView.image = UIImage(named: "haikei2")
+        } 
     
 }
-
+}

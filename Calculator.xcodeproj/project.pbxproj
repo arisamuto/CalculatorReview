@@ -22,6 +22,8 @@
 		80FE8D47230E421B00A8E2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FE8D4A230E421B00A8E2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FE8D4C230E421B00A8E2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FE8D59230EBDE800A8E2F3 /* haikei3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei3.jpg; path = "/Users/arisamuto/Desktop/武藤有咲＿ありちゃん/CalculatorReview/Calculator/haikei3.jpg"; sourceTree = "<absolute>"; };
+		80FE8D5A230EBE3700A8E2F3 /* haikei2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = haikei2.jpg; path = "/Users/arisamuto/Desktop/武藤有咲＿ありちゃん/CalculatorReview/Calculator/haikei2.jpg"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,8 @@
 			children = (
 				80FE8D40230E421900A8E2F3 /* AppDelegate.swift */,
 				80FE8D42230E421900A8E2F3 /* ViewController.swift */,
+				80FE8D59230EBDE800A8E2F3 /* haikei3.jpg */,
+				80FE8D5A230EBE3700A8E2F3 /* haikei2.jpg */,
 				80FE8D44230E421900A8E2F3 /* Main.storyboard */,
 				80FE8D47230E421B00A8E2F3 /* Assets.xcassets */,
 				80FE8D49230E421B00A8E2F3 /* LaunchScreen.storyboard */,
